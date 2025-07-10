@@ -143,3 +143,75 @@ main section{
     box-shadow: 0px 6px 50px 0px  rgba(0, 0, 0, 0.06);
 
 }
+/*Resume section*/
+.resume-container {
+    display: flex;
+    gap: 24px;
+}
+.experience-sub-tit{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+.experience-description, .experience-sub-title{
+    color: #757575;
+    
+}
+.resume hr{
+    margin: 30px 5px;
+}
+.resume-button{
+    text-align: center;
+    border: none;
+}
+.footer {
+  padding: 80px 100px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.footer-column {
+  flex: 1;
+  min-width: 300px;
+}
+
+.footer-column p {
+  font-size: 16px;
+  color: #474747;
+  margin-bottom: 20px;
+}
+
+.social-links a {
+  margin-right: 15px;
+}
+
+.social-links img {
+  width: 30px;
+  height: 30px;
+}
+
+/* Form styling */
+.footer-column form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.footer-column input,
+.footer-column textarea {
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-family: inherit;
+}
+
+.footer-column input[type="submit"] {
+  cursor: pointer;
+  border: none;
+}
